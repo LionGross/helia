@@ -1,0 +1,1 @@
+-- Placeholder for auth migrations - actual schema managed by better-auth
