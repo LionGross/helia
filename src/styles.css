@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-bg: #f3f4f1;
+  --color-surface: #fefefc;
+  --color-fg: #1a1c19;
+  --color-subtle: #6b7166;
+  --color-border: #e2e5dc;
+  --color-primary: #1a6b66;
+  --color-primary-fg: #fefefc;
+  --color-accent: #c45c26;
+  --color-ring: #1a6b66;
+  --color-muted: #eef0ea;
+  --color-success: #2f6f4e;
+  --color-warning: #a67c00;
+  --color-danger: #9b2c2c;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-bg text-fg font-sans antialiased;
+  }
+}
